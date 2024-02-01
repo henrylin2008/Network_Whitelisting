@@ -1,7 +1,6 @@
 # This Script is for IT Networking team;
 # Objective: Pulling dynamic IPs from vendors on daily basis and store the result in local server (172.20.6.12:8080),
 #            then firewalls (PAN) grant traffic on these whitelisted IPs (to JIRA server)
-# Requester: Amit Sail
 # Creator: Henry Lin
 
 import json, requests
